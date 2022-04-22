@@ -1,0 +1,210 @@
+.content{
+    height: 100%;
+    display: flex;
+    a{
+        color: black;
+    }
+    a:hover{
+        color: black;
+    }
+    .anticon-caret-left{
+        position: absolute;
+        left: 250px;
+        top: 47%;
+        background: black;
+        color: yellow !important;
+        color:'yellow';
+        font-size: 30px;
+        text-align: center;
+    }
+    .album{
+        background: yellow;
+        width: 80%;
+        .album_top{
+            margin-top: 20px;
+            display: flex;
+            .album_Info{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                p{
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                .intro{
+                    width: 80%;
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+                .select{
+                    line-height: 20px;
+                    font-size: 14px;
+                    text-align: center;
+                    min-width: 80px;
+                    padding: 5px 10px;
+                    border: 1px solid;
+                    border-radius: 15px;
+                }
+            }
+            img{
+                margin:0px 30px 0px 20px;
+                width: 150px;
+                height: 150px;
+            }
+        }
+        .album_bottom{
+            margin: 20px 0 0 0;
+            padding: 0px 20px 0 20px ;
+            width: 100%;
+            .songsTitle{
+                border-top: 2px solid;
+                span{
+                    margin-left: 240px;
+                }
+            }
+            .songsList{
+                overflow: auto;
+                max-height: 280px;
+                li{
+                    margin-top: 10px;
+                    align-items: center;
+                    max-width: 60%;
+                    min-width: 40%;
+                    display: flex;
+                    justify-content: space-between;
+                    b{
+                        font-size: 17px;
+                        margin-left: 15px;
+                    }
+                    div{
+                        display: flex;
+                        font-size: 12px;
+                        p{
+                            margin: 0;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                        }
+                        .anticon{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .albumsList{
+        width: 20%;
+        height: 495px;
+        border: 1px solid;
+        overflow: auto;
+        background: black;
+        padding: 0px 5px;
+        .item{
+            display: flex;
+            justify-content: space-around;
+            margin: 10px 5px;
+            color: yellow;
+            padding: 10px 5px;
+            border-bottom: 2px solid yellow;
+            div{
+                width: 50%;
+                p{
+                    margin: 0%;
+                    padding: 0%;
+                    overflow: hidden;
+                    font-size: 15px;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+                .arter{
+                    margin-top: 20px;
+                    font-size: 12px;
+                }
+            }
+            img{
+                width: 70px;
+            }
+        }
+    }
+    .albumsInfo{
+        width: 80%;
+        background:yellow;
+        .new{
+            border-top: 2px solid;
+            h3{
+                background: black;
+                width: 100px;
+                line-height: 30px;
+                color: yellow;
+                text-align: center;
+            }
+            div{
+                display: flex;
+                margin-left: 45px;
+                p{
+                    margin-left: 20px;
+                    padding: 5px;
+                    font-size: 20px;
+                    font-weight: bold;
+                    border-left: 5px solid;
+                    height: 45px;
+                }
+                img{
+                    width: 150px;
+                }
+            }
+        }
+        .main{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+            width: 100%;
+            .info{
+                height: 160px;
+                width: 50%;
+            }
+        }
+        div:nth-child(1){
+            .title{
+                font-size: 39.5px;
+                font-weight: bold;
+                text-align: center;
+                padding: 0%;
+                margin: 0%;
+                margin-bottom: -23px;
+            }
+            
+            .swiper{
+                width: 320px;
+                background: yellow;
+            }
+            .swiper-slide{
+                img{
+                    width: 320px;
+                }
+                img:hover{
+                    transform: scale(1.3);
+                    transition: .5s;
+                }
+            }
+        }
+    }
+    .playView{
+        width: 80%;
+        display: flex;
+        div{
+            width: 50%;
+        }
+    }
+    ::-webkit-scrollbar{
+        background: yellow;
+        width: 10px;
+        border: none;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: black;
+    }
+}

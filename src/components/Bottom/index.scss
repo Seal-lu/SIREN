@@ -1,0 +1,49 @@
+.muisc_button{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 3.75rem;
+    background: yellow;
+    display: flex;
+    border-top: 2px solid black;
+    .buttonList{
+        *{
+            width: 40px;
+            height: 40px;
+        }
+        margin: 10px;
+        margin-left: 20px;
+    }
+    .slider{
+        padding-top: 20px;
+        margin: 0% auto;
+        overflow: hidden;
+        *{
+            float: left;
+            line-height: 30px;
+        }
+        .ant-slider{
+            width: 500px;
+        }
+    }
+    #songInfo{
+        position: absolute;
+        left: 210px;
+        span{
+            font-size: 23px;
+            font-weight: bold;
+        }
+        *{
+            margin: 0%;
+        }
+    }
+    .iconList{
+        position: absolute;
+        right: 15%;
+        top: 25px;
+        *{
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
